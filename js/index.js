@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 const bt_open_modal = document.querySelector('.open-modal-js');
 const bt_close_modal = document.querySelector('.modal-close-js');
@@ -11,7 +11,7 @@ const prev_bt = document.querySelector('.prev-js');
 bt_open_modal.addEventListener('click', openModal);
 bt_close_modal.addEventListener('click', closeModal);
 
-const imgGallay = ['../img/arrayJs/add1.jpg', '../img/arrayJs/add2.jpg'];
+const imgGallay = [`../img/arrayJs/add1.jpg`, `../img/arrayJs/add2.jpg`];
 let count = 0;
 
 function openModal(event) {
@@ -24,7 +24,7 @@ function openModal(event) {
 
 function openModalImg() {
     modalWindow.classList.add('open');
-    modalImg.src = '../img/arrayJs/diploma.jpg';
+    modalImg.src = `../img/arrayJs/diploma.jpg`;
 }
 
 function openModelGallary() {
@@ -35,7 +35,6 @@ function openModelGallary() {
 }
 
 function closeModal() {
-    console.log('close');
     modalWindow.classList.remove('open');
     const modalButtons = document.querySelector('.wrap-modal-button');
     if (modalButtons.classList.contains('open-buttons')) modalButtons.classList.remove('open-buttons');
