@@ -230,7 +230,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 337px;
+    width: 320px;
     height: 128px;
     left: 50%;
     transform: translateX(-50%);
@@ -358,8 +358,8 @@ body {
 
 .modal-close {
     display: block;
-    font-size: 30px;
-    padding: 5px 13px;
+    font-size: 15px;
+    padding: 6px 10px;
     border-radius: 50%;
     border: none;
     border: 2px solid black;
@@ -367,7 +367,7 @@ body {
 }
 
 .wrap-modal-button button {
-    font-size: 40px;
+    font-size: 20px;
     border: 2px solid #ffffff;
     color: #ffffff;
     background-color: transparent;
@@ -887,6 +887,13 @@ body {
     .modal-img {
         width: 800px;
         height: 500px;
+    }
+    .modal-close {
+        font-size: 30px;
+        padding: 6px 13px;
+    }
+    .wrap-modal-button button {
+        font-size: 40px;
     }
     /* congratulation-end */
     /* delivery-start */
