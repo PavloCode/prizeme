@@ -1,4 +1,4 @@
-// 'use strict';
+'use strict';
 
 
 const bt_open_modal = document.querySelector('.open-modal-js');
