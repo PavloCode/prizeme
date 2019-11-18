@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <main>
+        <section class="main">
+            <div class="container">
+                <div class="wrap-content">
+                    <span class="main-info">*У разі Вашої перемоги в Акції "Золотий Фонд" та виникнення подібної ситуації Ви можете отримати такого листа</span>
+                    <h1 class="main-logo title"><img src="./img/svg/logo.svg" alt="logo"></h1>
+                    <h2 class="main-client-title title"> <span class="main-client-name">{{Name}}</span>,<br> На <span class="main-client-name-letter">в</span>ас чекає грандіозне нагородження!</h2>
+                    <p class="main-description">Від щирого серця вітаю Вас! Ви заслужено здобули перемогу і будете винагороджені по максимуму! Мені приємно усвідомлювати, що саме Ви отримаєте Головний приз Акції – 317 000,00 гривень!</p>
+                    <a class="main-button" href="#blank">обрати дату <br> нагородження</a>
+                    <span class="main-gratitude">З повагою, Голова Фінансового відділу з<br> виплати призів Олена Філімонова.</span>
+                </div>
+            </div>
+        </section>
+        <section class="congratulation">
+            <div class="container">
+                <h3 class="congratulation-client-title title"> <span class="congratulation-client-name">{{Name}}</span>, <br> вітаємо!</h3>
+                <span class="congratulation-info">Ви успішно пройшли всі етапи відбору і отримуєте</span>
+                <h2 class="congratulation-main-title title title-decoration">ЧЕРВОНИЙ ДИПЛОМ ПЕРЕМОЖЦЯ!</h2>
+                <div class="wrap-congratulation-content">
+                    <div class="wrap-congratulation-description">
+                        <div class="wrap-content">
+                            <h3 class="congratulation-addition-title title">Фінансовий відділ “PrizeMe” пишається Вами!</h3>
+                            <p class="congratulation-description">Ви дуже швидко реагували на листи і правильно заповнювали офіційні документи, саме тому перед нагородженням ми вирішили видати Вам <span class="congratulation-description-red">ЧЕРВОНИЙ ДИПЛОМ ПЕРЕМОЖЦЯ</span> , що надає Вам
+                                унікальне право на першочергову та БЕЗКОШТОВНУ доставку виграшу.*
+                            </p>
+                            <p class="congratulation-description congratulation-description-margin">Радійте! Гонитва за виграшем завершена. Ваші документи підписано, гроші підготовлено. Тепер Ви гарантовано одержите <span class="congratulation-description-color">317 000,00 гривень</span> без черг і на першу вимогу.</p>
+                        </div>
+                        <p class="congratulation-description congratulation-description-background">І зараз все, що лишилося – лише повідомити нам зручний для Вас день доставки грошей! Це останній обов’язковий крок для отримання 317 000,00 гривень.</p>
+                        <div class="wrap-content">
+                            <p class="congratulation-description congratulation-description-desk-margin">Завантажте ДИПЛОМ або запишіть його номер для пред’явлення кур’єру Служби доставки (за бажанням можете роздрукувати ДИПЛОМ, після завантаження). Ознайомтеся з ДОДАТКОМ, щоб дізнатись усі подробиці Вашої перемоги. </p>
+                        </div>
+                    </div>
+                    <div class="wrap-congratulation-img open-modal-js">
+                        <img class="congratulation-diploma diploma-js" src="./img/documents/diploma.png" alt="img">
+                        <a class="congratulation-button" href="./download/diploma.jpg" download="">ЗАВАНТАЖИТИ</a>
+                        <img class="congratulation-diploma-addition diploma-add-js" src="./img/documents/diploma-addition.png" alt="img">
+                    </div>
+                </div>
+                <p class="delivery-info">Завдяки Вашому ЧЕРВОНОМУ ДИПЛОМУ ПЕРЕМОЖЦЯ доставку виграшу буде здійснено БЕЗКОШТОВНО!</p>
+            </div>
+            <div class="wrap-modal-window">
+                <div class="modal-window">
+                    <button class="modal-close modal-close-js">X</button>
+                    <img class="modal-img modal-img-js" src="./" alt="img">
+                    <div class="wrap-modal-button">
+                        <button class="prev-js">prev</button>
+                        <button class="next-js">next</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="delivery">
+            <div class="container">
+                <h3 class="delivery-client-title title"><span class="delivery-client-name">{{Name}}</span> <br> Ви – найкращий клієнт компанії!</h3>
+                <h2 class="delivery-titile title">Ви – Власник ЧЕРВОНОГО ДИПЛОМА ПЕРЕМОЖЦЯ!</h2>
+                <div class="wrap-content">
+                    <p class="delivery-description">Ми вже готові доставити Вам виграш за адресою Вашого проживання. Головне – повідомте, коли Вам буде зручно зустріти кур’єра компанії та одержати гроші.</p>
+                    <p class="delivery-description">Ви можете обрати будь-який тиждень виплат та день (навіть вихідний) для візиту кур’єра.</p>
+                </div>
+            </div>
+        </section>
+        <section class="blank" id="blank">
+            <div class="container">
+                <h2 class="blank-title title title-decoration">Ми надсилаємо Вам <br> “БЛАНК НА ДОСТАВКУ ВИГРАШУ”.</h2>
+                <div class="wrap-blank-content">
+                    <p class="blank-description wrap-content"><span class="blank-client-name">{{Name}}</span><br> щоб отримати свій виграш – впишіть у “БЛАНК” зручну для Вас дату отримання виграшу та надішліть нам. Після цього кур’єр “PrizeMe” доставить Вам <br> <span class="congratulation-description-color">317 000,00 гривень </span>прямо
+                        додому.
+                    </p>
+                    <img class="blank-img" src="./img/documents/example.jpg" alt="img">
+                </div>
+                <p class="blank-delivery-info">ЗАПОВНЕНИЙ “БЛАНК НА ДОСТАВКУ ВИГРАШУ” – ВАША ГАРАНТІЯ ОТРИМАННЯ <span class="delivery-info-color">317 000,00 гривень</span> </p>
+                <button class="blank-button">ЗАПОВНИТИ БЛАНК</button>
+            </div>
+        </section>
+        <section class="instruction">
+            <div class="container">
+                <div class="wrap-content">
+                    <h2 class="instruction-title title">ІНСТРУКЦІЯ З ОДЕРЖАННЯ ВИГРАШУ</h2>
+                    <ul class="instruction-list list">
+                        <li class="instruction-item sprite-arrow instruction-item-arrow">
+                            <p class="instruction-item-description"><span> <span class="number-mobile">1.</span>Завантажте</span> ЧЕРВОНИЙ ДИПЛОМ ПЕРЕМОЖЦЯ або перепишіть його номер. Ознайомтся з ДОДАТКОМ</p>
+                            <p class="number-desktop">1</p>
+                        </li>
+                        <li class="instruction-item sprite-writing instruction-item-arrow">
+                            <p class="instruction-item-description"><span><span class="number-mobile">2.</span>Заповніть “БЛАНК НА ДОСТАВКУ ВИГРАШУ”. Обов’язково впишіть зручні для Вас тиждень виплат та день одержання грошей, а також адресу.</span>
+                            </p>
+                            <p class="number-desktop">2</p>
+                        </li>
+                        <li class="instruction-item sprite-hand instruction-item-arrow">
+                            <p class="instruction-item-description"><span><span class="number-mobile">3.</span>Оберіть</span> уподобані товари з акційної товарної пропозиції. Акційна пропозиція від PrizeMe дійсна лише протягом 24 годин! Замовте будь-які товари за СУПЕРЦІНОЮ!
+                            </p>
+                            <p class="number-desktop">3</p>
+                            <span class="instruction-info">Увага: без Вашого замовлення “БЛАНК НА ДОСТАВКУ ВИГРАШУ” автоматично відбракується Системою автоматичної верифікації, 
+                                    а отже, виплата Вам 317 000,00 гривень НЕ ВІДБУДЕТЬСЯ! 
+                            </span>
+                        </li>
+                        <li class="instruction-item sprite-truck">
+                            <p class="instruction-item-description"><span><span class="number-mobile">4.</span>Заберіть</span> на пошті посилку із замовленими товарами та очікуйте кур’єра, який БЕЗКОШТОВНО ПРИВЕЗЕ Вам гроші прямо додому.
+                            </p>
+                            <p class="number-desktop">4</p>
+                        </li>
+                    </ul>
+                    <span class="instruction-info-desktop">Увага: без Вашого замовлення “БЛАНК НА ДОСТАВКУ ВИГРАШУ” автоматично відбракується Системою автоматичної верифікації, 
+                        а отже, виплата Вам 317 000,00 гривень НЕ ВІДБУДЕТЬСЯ! 
+                </span>
+                </div>
+                <p class="delivery-info delivery-info-background">Якщо НЕ НАДІШЛЕТЕ ВІДПОВІДЬ – ВТРАТИТЕ 317 000,00 гривень назавжди!</p>
+            </div>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('a[href*=#]').bind("click", function(e) {
+                var anchor = $(this);
+                $('html, body').stop().animate({
+                    scrollTop: $(anchor.attr('href')).offset().top
+                }, 1500);
+                e.preventDefault();
+            });
+            return false;
+        });
+    </script>
+</body>
+
+</html>
