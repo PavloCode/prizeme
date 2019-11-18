@@ -11,7 +11,7 @@ const prev_bt = document.querySelector('.prev-js');
 bt_open_modal.addEventListener('click', openModal);
 bt_close_modal.addEventListener('click', closeModal);
 
-const imgGallay = ['./img/add1.jpg', '../img/add2.jpg'];
+const imgGallay = ['./img/add1.jpg', './img/add2.jpg'];
 let count = 0;
 
 function openModal(event) {
@@ -24,7 +24,7 @@ function openModal(event) {
 
 function openModalImg() {
     modalWindow.classList.add('open');
-    modalImg.src = '../img/diploma.jpg';
+    modalImg.src = './img/diploma.jpg';
 }
 
 function openModelGallary() {
