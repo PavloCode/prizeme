@@ -817,6 +817,7 @@ body {
 }
 
 .phone-number {
+    font-family: 'Roboto';
     border: 2px solid #E2C765;
     width: 285px;
     height: 43px;
@@ -836,6 +837,7 @@ body {
 }
 
 .phone-number::placeholder {
+    font-family: 'Roboto';
     font-size: 14px;
     line-height: 18px;
     color: #000000;
