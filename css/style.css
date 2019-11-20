@@ -818,6 +818,8 @@ body {
 
 .phone-number {
     font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 18px;
     border: 2px solid #E2C765;
     width: 285px;
     height: 43px;
