@@ -817,9 +817,6 @@ body {
 }
 
 .phone-number {
-    font-family: 'Roboto';
-    font-size: 14px;
-    line-height: 18px;
     border: 2px solid #E2C765;
     width: 285px;
     height: 43px;
@@ -829,7 +826,6 @@ body {
 }
 
 .address {
-    font-family: 'Roboto';
     border: 2px solid #E2C765;
     resize: none;
     height: 30px;
@@ -855,7 +851,6 @@ body {
 }
 
 select {
-    font-family: 'Roboto';
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
