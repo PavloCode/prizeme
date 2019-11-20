@@ -821,15 +821,15 @@ body {
     font-size: 14px;
     line-height: 18px;
     border: 2px solid #E2C765;
-    /* width: 285px; */
-    width: 98%;
+    width: 285px;
     height: 43px;
-    text-indent: 10px;
+    /* text-indent: 10px; */
     border-radius: 4px;
     margin-bottom: 10px;
 }
 
 .address {
+    font-family: 'Roboto';
     border: 2px solid #E2C765;
     resize: none;
     height: 30px;
@@ -855,6 +855,7 @@ body {
 }
 
 select {
+    font-family: 'Roboto';
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -863,7 +864,7 @@ select {
     border: 2px solid #E2C765;
     background-color: #ffffff;
     border-radius: none;
-    text-indent: 10px;
+    /* text-indent: 10px; */
     font-size: 14px;
     line-height: 18px;
     color: #000000;
