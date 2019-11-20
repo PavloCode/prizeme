@@ -821,7 +821,8 @@ body {
     font-size: 14px;
     line-height: 18px;
     border: 2px solid #E2C765;
-    width: 285px;
+    /* width: 285px; */
+    width: 98%;
     height: 43px;
     text-indent: 10px;
     border-radius: 4px;
